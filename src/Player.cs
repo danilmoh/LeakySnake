@@ -82,7 +82,7 @@ public class Player : Area2D
         if(direction == "down")
         {
             GetNode<Sprite>("Sprite").RotationDegrees = 180;
-            if(pos.y > 1000)
+            if(pos.y > 980)
                 pos.y = 20;
             else
                 pos.y += 40;
@@ -91,7 +91,7 @@ public class Player : Area2D
         if(direction == "up")
         {
             GetNode<Sprite>("Sprite").RotationDegrees = 0;
-            if(pos.y < 0)
+            if(pos.y < 20)
                 pos.y = 980;
             else
                 pos.y -= 40;
@@ -100,7 +100,7 @@ public class Player : Area2D
         if(direction == "left")
         {
             GetNode<Sprite>("Sprite").RotationDegrees = -90;
-            if(pos.x < 0)
+            if(pos.x < 20)
                 pos.x = 980;
             else
                 pos.x -= 40;
@@ -109,7 +109,7 @@ public class Player : Area2D
         if(direction == "right")
         {
             GetNode<Sprite>("Sprite").RotationDegrees = 90;
-            if(pos.x > 1000)
+            if(pos.x > 980)
                 pos.x = 20;
             else
                 pos.x += 40;
