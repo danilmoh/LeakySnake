@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/arrowUpPressed.png-508da2b8a95e6c82aae2708d6f1ebf9d.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Controls/arrowUpPressed.png"
+dest_files=[ "res://.import/arrowUpPressed.png-508da2b8a95e6c82aae2708d6f1ebf9d.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
