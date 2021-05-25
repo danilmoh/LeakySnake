@@ -38,6 +38,7 @@ light_mask = 3
 position = Vector2( 20, 20 )
 
 [node name="map2" type="Sprite" parent="."]
+light_mask = 0
 position = Vector2( 500, 1500.5 )
 scale = Vector2( 1, 1.001 )
 texture = ExtResource( 8 )
@@ -47,7 +48,7 @@ position = Vector2( -826.757, -119.996 )
 
 [node name="Apple" parent="." instance=ExtResource( 4 )]
 light_mask = 3
-position = Vector2( 58.0546, 20 )
+position = Vector2( 20, 20 )
 mode = 1
 
 [node name="HUD" parent="." instance=ExtResource( 5 )]

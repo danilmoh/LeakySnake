@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Snake's tale.png-d14d4f48c506dbbba638efd6efdb59f1.stex"
+path="res://.import/Snake's tail.png-251a291fc90b0f170b41a812c74a1efe.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Snake's tale.png"
-dest_files=[ "res://.import/Snake's tale.png-d14d4f48c506dbbba638efd6efdb59f1.stex" ]
+source_file="res://Sprites/Snake's tail.png"
+dest_files=[ "res://.import/Snake's tail.png-251a291fc90b0f170b41a812c74a1efe.stex" ]
 
 [params]
 

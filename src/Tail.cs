@@ -13,7 +13,7 @@ public class Tail : RigidBody2D
 
 	// textures
 	Texture tail = ResourceLoader.Load("res://Sprites/Snake's body.png") as Texture;
-	Texture tailsTail = ResourceLoader.Load("res://Sprites/Snake's tale.png") as Texture;
+	Texture tailsTail = ResourceLoader.Load("res://Sprites/Snake's tail.png") as Texture;
 	Texture tailsAngle = ResourceLoader.Load("res://Sprites/Snake's angle.png") as Texture;
 
 	// Called when the node enters the scene tree for the first time.
@@ -54,6 +54,16 @@ public class Tail : RigidBody2D
 		{
 			GetNode<Sprite>("Sprite").Texture = tail;
 		}
+
+		Vector2 pos = new Vector2();
+		pos = Position;
+
+		// fix tail overlap over botton map sprite node by hiding
+		if(pos.x > 980 || pos.x < 20 || pos.y < 20 || pos.y > 980)
+			this.Hide();
+		else	
+			this.Show();
+
 
 		RotateSprite();
 	}

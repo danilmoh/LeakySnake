@@ -9,8 +9,12 @@ extents = Vector2( 19.996, 19.996 )
 [node name="RigidBody2D" type="RigidBody2D" groups=[
 "tail",
 ]]
+light_mask = 0
 mode = 1
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
