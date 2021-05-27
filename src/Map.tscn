@@ -54,8 +54,8 @@ mode = 1
 [node name="HUD" parent="." instance=ExtResource( 5 )]
 
 [node name="ArrowKeys" parent="." instance=ExtResource( 7 )]
-position = Vector2( -251.445, -280.001 )
-scale = Vector2( 1.5, 1.5 )
+position = Vector2( -500, -879.013 )
+scale = Vector2( 2, 2 )
 
 [node name="AudioStreamPlayer2D" parent="." instance=ExtResource( 10 )]
 position = Vector2( 505.917, 951.425 )
